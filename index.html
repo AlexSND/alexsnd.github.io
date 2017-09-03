@@ -22,57 +22,35 @@
 
 	</head>
 	<body>
+		<div id="app">
+		
 		<section class="header">
+			
 			<div class="section-wrapper">
+		
 			    <span class="header__title">
-			    	Alexander SND portfolio
+			    	{{ title }}
 			    </span>
-			    <ul class="header__portfolio">
-			    	<li>
-			    		<a href="portfolio_01/index.html" class="js-object-fit" target="blank">
-			    			<img src="img/portfolio_01.jpg">
-			    		</a>
-			    	</li>
 		
-			    	<li>
-			    		<a href="portfolio_02/index.html" class="js-object-fit" target="blank">
-			    			<img src="img/portfolio_02.jpg">
-			    		</a>
-			    	</li>
+			    <header__portfolio></header__portfolio>
 		
-			    	<li>
-			    		<a href="portfolio_03/index.html" class="js-object-fit" target="blank">
-			    			<img src="img/portfolio_03.jpg">
-			    		</a>
-			    	</li>
-		
-			    	<li>
-			    		<a href="portfolio_04/index.html" class="js-object-fit" target="blank">
-			    			<img src="img/portfolio_04.jpg">
-			    		</a>
-			    	</li>
-		
-			    	<li>
-			    		<a href="portfolio_05/index.html" class="js-object-fit" target="blank">
-			    			<img src="img/portfolio_05.jpg">
-			    		</a>
-			    	</li>
-		
-			    	<li>
-			    	</li>
-			    </ul>
 			    <span class="header__links">
 			    	<a href="mailto:snd.dnb@gmail.com">
-			    		snd.dnb@gmail.com
+			    		{{ email }}
 			    	</a>
 			    </span>
-			</div>
 		
-			<div id="particles-background"></div>
+			</div>
 		</section>
 
+		</div>
+		<div id="particles-background"></div>
+
+		<!-- vue -->
+		<script type="text/javascript" src="js/vue.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
 		<!--main js-->
 		<script type="text/javascript" src="js/main.js"></script>
-
+		
 	</body>
 </html>
